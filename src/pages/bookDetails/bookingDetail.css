@@ -1,0 +1,45 @@
+.bookContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Noto Sans Lao';
+}
+
+.bookWrapper {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.list-book {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.css-1wvnaxz-MuiTableCell-root.MuiTableCell-head,
+.css-1nslmh4-MuiTableCell-root.MuiTableCell-head 
+{
+    background-color: #003580 !important;
+}
+
+.css-1bhpkcd-MuiTableCell-root.MuiTableCell-body:last-child {
+    color: red;
+    cursor: pointer;
+}
+
+.css-1bhpkcd-MuiTableCell-root.MuiTableCell-body > span {
+    color: #003580;
+}
+
+.css-1bhpkcd-MuiTableCell-root.MuiTableCell-body:last-child > button {
+    border: 0;
+    background-color: #ff00002b;
+    padding: 4px;
+    border-radius: 5px;
+    color: red;
+}
+
+.css-1bhpkcd-MuiTableCell-root.MuiTableCell-body:last-child > button:disabled {
+    color: rgb(233, 63, 63);
+}

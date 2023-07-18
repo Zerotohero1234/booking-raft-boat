@@ -1,0 +1,75 @@
+
+.pList {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.6rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    transition: all 300ms ease-in-out;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .pListItem {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    scroll-snap-align: start;
+    border-radius: 10px;
+    min-width: 209px;
+  }
+  
+  .pListImg {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .pListTitles > h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .pListTitles > h2 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .wrap-button-next-prev {
+    display: flex;
+    justify-content: space-between;
+    left: calc(15px*-1);
+    position: absolute;
+    right: calc(15px*-1);
+    transform: translateY(-50%);
+    z-index: 100;
+  }
+  
+  .wrap-button-next-prev .prev,
+  .wrap-button-next-prev .next {
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    pointer-events: all;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #717070;
+  }
+  
