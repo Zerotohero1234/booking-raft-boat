@@ -11,7 +11,7 @@ import {
   ROOM_DETAILS_SUCCESS,
 } from "../Constants/RoomConstants";
 
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://server-booking-raft-boat.onrender.com";
 
 // ROOM LIST
 export const listRoom =
