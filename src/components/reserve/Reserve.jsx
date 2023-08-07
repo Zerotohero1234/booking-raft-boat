@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./reserve.css";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
-import imgQr from "../../../public/Capture.png";
+import imgQr from "../../../public/Capture1.png";
 import { NumericFormat } from "react-number-format";
 import { createBook } from "../../Redux/Actions/BookAction";
 import { useDispatch, useSelector } from "react-redux";
